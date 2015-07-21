@@ -8,7 +8,7 @@ maintainer:          andrew@tullo.ch
 homepage:            https://github.com/ajtulloch/caffegraph/
 category:            Math
 build-type:          Simple
--- extra-source-files:  
+-- extra-source-files:
 cabal-version:       >=1.10
 source-repository head
   type:     git
@@ -17,7 +17,7 @@ source-repository head
 Library
   GHC-Options: -Wall
   Hs-Source-Dirs: .
-  exposed-modules: NN, 
+  exposed-modules: NN,
                    NN.Backend.Caffe
                    NN.Backend.Torch.Codegen
                    NN.Backend.Torch.Lua
@@ -105,8 +105,6 @@ Library
                      , filepath
                      , formatting
                      , graphviz
-                     , ihaskell
-                     , ihaskell-magic
                      , language-lua
                      , lens
                      , mtl
